@@ -1,0 +1,13 @@
+name: Artisan
+version: 0.1.0
+main: dev.artisan.ArtisanPlugin
+api-version: "26.3"
+description: Custom items and resource pack hosting
+commands:
+  artisan:
+    description: Artisan admin command
+    usage: /artisan <give|list|reload|pack>
+    permission: artisan.admin
+permissions:
+  artisan.admin:
+    default: op

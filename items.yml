@@ -1,0 +1,12 @@
+# id предмета -> настройки
+items:
+  ruby:
+    material: PAPER
+    name: "<red>Рубин"
+    lore:
+      - "<gray>Редкий драгоценный камень"
+    # модель из ресурспака: assets/artisan/items/ruby.json (по умолчанию artisan:<id>)
+    item_model: "artisan:ruby"
+    glow: true
+    max_stack_size: 64
+    unbreakable: false
